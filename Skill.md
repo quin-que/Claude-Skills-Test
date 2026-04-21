@@ -1,26 +1,31 @@
 ---
-name: SEO Keyword Optimization Suite
-description: Perform end-to-end keyword research, expansion, prioritization, and competitive analysis using keyword volume, KD, matching terms, country data, ranking keywords, and citation insights.
+name: SEO Strategy & Content Gap Analysis Suite
+description: Perform comprehensive keyword research, competitive analysis, and content gap identification using keyword data, SERP analysis, and ranking insights to build actionable SEO strategies.
 ---
 
 ## Overview
 
-This skill performs comprehensive SEO keyword analysis and optimization.
+This skill performs end-to-end SEO strategy development by combining:
 
-It combines:
+1. Keyword optimization
+2. Content gap analysis
+3. SERP competitor insights
+
+It integrates:
 - keyword discovery
 - keyword expansion
-- prioritization
-- country-specific analysis
-- ranking keyword analysis
-- brand/domain citation analysis
+- country-level demand analysis
+- ranking keyword extraction
+- SERP comparison
+- content gap detection
+- authority/citation analysis
 
 Use this skill when the user:
-- wants to do keyword research
 - wants SEO strategy
+- wants keyword research
 - wants to analyze competitors
-- wants content ideas
-- wants to optimize existing articles
+- wants to find content gaps
+- wants to improve existing articles
 
 ---
 
@@ -30,83 +35,117 @@ Expect one of the following:
 
 - seed keyword
 - keyword list
-- URL (for competitor or own article)
+- URL (own or competitor)
 - topic idea
 
 Optional:
 - country (default: Japan)
-- search intent
+- target audience
 - business goal
 
 ---
 
 ## Workflow
 
-### 1. Keyword Discovery (keywords-explorer-overview)
+---
+
+### 1. Keyword Discovery  
+(keywords-explorer-overview)
 
 - Identify keyword candidates
 - Evaluate:
   - search volume
-  - KD (keyword difficulty)
-- Highlight:
+  - KD
+- Detect:
   - high-volume / low-KD opportunities
   - quick wins
 
 ---
 
-### 2. Keyword Expansion (keywords-explorer-matching-terms)
+### 2. Keyword Expansion  
+(keywords-explorer-matching-terms)
 
-- Generate related keywords:
+- Generate:
   - long-tail keywords
-  - question keywords
-  - comparison keywords
-- Group by search intent
+  - question queries
+  - comparison queries
+- Identify:
+  - subtopics
+  - alternate angles
 
 ---
 
-### 3. Country Analysis (keywords-explorer-volume-by-country)
+### 3. Country Analysis  
+(keywords-explorer-volume-by-country)
 
 - Focus on Japan market
-- Compare keyword demand by country if relevant
+- Validate demand in JP
 - Identify localization opportunities
 
 ---
 
-### 4. Ranking Keyword Analysis (site-explorer-organic-keywords)
+### 4. Ranking Keyword Analysis  
+(site-explorer-organic-keywords)
 
-- Extract ranking keywords from target URL
-- Analyze positions:
-  - 1–3 → strong
-  - 4–10 → optimization target
-  - 11–30 → high opportunity
+- Extract ranking keywords for target/competitor pages
+- Classify:
+  - 1–3 (strong)
+  - 4–10 (improvable)
+  - 11–30 (high opportunity)
 - Identify:
   - traffic drivers
-  - content gaps
+  - weak coverage
 
 ---
 
-### 5. Brand / Citation Analysis (brand-radar)
+### 5. SERP & Competitor Analysis  
+(serp-overview)
 
-- Identify domains/pages cited in AIO or search ecosystem
+- Analyze current SERP
+- Identify:
+  - top ranking competitors
+  - keywords competitors rank for
+- Compare:
+  - overlap vs gaps
+
+---
+
+### 6. Content Gap Detection  
+(keywords-explorer-matching-terms + serp-overview)
+
+- Identify:
+  - missing subtopics
+  - alternative content angles
+  - under-covered intent
 - Detect:
-  - authoritative domains
-  - frequently cited sources
-- Use as:
-  - backlink targets
-  - content reference strategy
+  - competitor-only keywords
+  - unaddressed search needs
 
 ---
 
-### 6. Synthesis & Prioritization
+### 7. Authority & Citation Analysis  
+(brand-radar-cited-pages / domains)
+
+- Identify:
+  - cited domains in AIO
+  - authoritative sources
+- Analyze:
+  - trust signals
+  - content patterns
+
+---
+
+### 8. Synthesis & Strategy
 
 Combine all insights:
 
 - prioritize keywords
-- map keywords to content
+- build topic clusters
+- map content structure
 - identify:
   - primary keywords
   - supporting keywords
-  - cluster structure
+  - pillar vs cluster content
 
 ---
 
@@ -117,8 +156,8 @@ Use the following structure:
 ---
 
 ## Summary
-- main topic:
-- search demand overview:
+- topic:
+- demand level:
 - competition level:
 - opportunity level:
 
@@ -136,6 +175,20 @@ Use the following structure:
 
 ---
 
+## SERP Insights
+- top competitors:
+- ranking patterns:
+- content types:
+
+---
+
+## Content Gap Analysis
+- missing topics:
+- weak areas:
+- competitor-only coverage:
+
+---
+
 ## Ranking Insights
 - strong keywords:
 - quick wins:
@@ -143,40 +196,36 @@ Use the following structure:
 
 ---
 
-## Country Insights
-- Japan demand:
-- localization notes:
-
----
-
-## Authority / Citation Insights
+## Authority Insights
 - key domains:
-- content patterns:
 - trust signals:
+- citation patterns:
 
 ---
 
 ## Action Plan
 - target keywords:
-- article ideas:
-- content structure:
+- content ideas:
+- article structure:
+- internal linking:
 - next steps:
 
 ---
 
 ## Rules
 
-- Do NOT fabricate metrics (volume, KD, ranking)
+- Do NOT fabricate metrics (volume, KD, rankings)
 - Clearly state assumptions if data is missing
 - Prioritize actionable insights over raw data
-- Keep output concise and structured
-- Focus on decision-making
+- Focus on SEO decision-making
+- Avoid generic explanations
 
 ---
 
 ## Output Style
 
-- professional
 - concise
 - structured
-- table-first when possible
+- professional
+- table-first
+- decision-oriented
