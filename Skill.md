@@ -229,3 +229,14 @@ Use the following structure:
 - professional
 - table-first
 - decision-oriented
+
+---
+
+## Output Format (Artifact)
+
+- 出力は必ずアーティファクト機能を利用すること  
+- Word（.docx）またはExcel（.xlsx）形式でダウンロード可能なファイルとして生成すること  
+- 内容に応じて適切な形式を選択する  
+  - キーワード・表データ中心 → Excel  
+  - レポート・戦略文書 → Word  
+- ファイル内は読みやすい構造（見出し・表・箇条書き）で整理すること
